@@ -1,0 +1,36 @@
+h1{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2rem;
+    // margin-top: 0;
+    font-weight: lighter;
+}
+
+hr{
+    width: 50%;
+    height:5px;
+    background: #D0287F;
+    border-style: none;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height:90vh;
+}
+.caret.caret-reversed {
+    border-bottom: 30px solid #D0287F;
+    border-left: 30px solid #00070C;
+    border-right: 30px solid #00070C;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+    transform: rotate(180deg);
+  }
