@@ -1,19 +1,9 @@
-h1{
-    font-size: 4rem;
-    margin: 0;
-    font-weight: bold;
-}
 
-h3{
-    font-size: 2rem;
-    // margin-top: 0;
-    font-weight: lighter;
-}
 
 hr{
     width: 50%;
     height:5px;
-    background: #D0287F;
+    background: $secondary;
     border-style: none;
 }
 
@@ -22,11 +12,22 @@ hr{
     align-items: center;
     text-align: center;
     height:90vh;
+    h1{
+        font-size: 7rem;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    h3{
+        font-size: 2rem;
+        // margin-top: 0;
+        font-weight: lighter;
+    }
 }
 .caret.caret-reversed {
-    border-bottom: 30px solid #D0287F;
-    border-left: 30px solid #00070C;
-    border-right: 30px solid #00070C;
+    border-bottom: 30px solid $secondary;
+    border-left: 30px solid $primary;
+    border-right: 30px solid $primary;
     content: "";
     display: inline-block;
     height: 0;

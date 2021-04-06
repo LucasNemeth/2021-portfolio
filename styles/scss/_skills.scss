@@ -1,0 +1,14 @@
+.skill-list{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% auto;
+    li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px;
+        i{
+            font-size: 3rem;
+        }
+    }
+}

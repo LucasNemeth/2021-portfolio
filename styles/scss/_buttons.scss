@@ -1,0 +1,13 @@
+button{
+    background: $secondary;
+    border: none;
+    padding: 10px;
+    font-family: "Sen", sans-serif;
+    font-size: 1.3rem;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+button:hover{
+    cursor: pointer;
+}

@@ -1,10 +1,21 @@
+//-----------------Variables-----------------------------------------//
+//    font-family: 'Gothic A1', sans-serif;
+
+// font-family: 'Sen', sans-serif;
+$text-light: #eaf0db;
+$text-med: #8a8989;
+// $primary: #00070C;
+$primary:#020E17;
+$secondary:  #D0287F;
+$tertiary:  #74053e;
+
 html{
     font-family: "sen", sans-serif;
     font-size: 62.5%;
     line-height: 1.5;
     scroll-behavior: smooth;
-    background: #00070C;
-    color: white;
+    background: $primary;
+    color: $text-light;
 }
 .wrapper{
     margin: 0 auto;
@@ -17,7 +28,7 @@ li{
 
 a {
     text-decoration: none;
-    color:#eaf0db;
+    color:$text-light;
 }
 p{
     font-size: 1.5rem;
@@ -26,15 +37,16 @@ img {
     width: 100%;
 }
 
-h1, h2{
+h1{
     font-family: "Gothic A1", sans-serif;
 }
 
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
 
-
-//-----------------Variables-----------------------------------------//
-//    font-family: 'Gothic A1', sans-serif;
-
-// font-family: 'Sen', sans-serif;
 
 
