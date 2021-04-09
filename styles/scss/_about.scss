@@ -6,6 +6,9 @@
     .wrapper{
         display: flex;
         position: relative;
+        button{
+            width: 100%;
+        }
     } 
 }
 .about::before{
