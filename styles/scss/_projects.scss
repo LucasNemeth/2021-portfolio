@@ -1,3 +1,44 @@
 .right-container, .left-container{
-    display: flex;
+    .wrapper{
+        display: flex;
+        position: relative;
+        align-items: center;
+        
+    }
+}
+
+.right-container{
+    position: relative; 
+    .wrapper{
+        color: $primary;
+    }
+}
+.right-container::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 45px;
+    transform: skewY(-2deg);
+    background:$text-light;
+    border-top: 20px solid $secondary;
+    // border-bottom: 30px solid #D0287F;;
+}
+
+.right-container::after{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 100px;
+    right: 0;
+    bottom: -55px;
+    transform: skewY(4deg);
+    background:$text-light;
+    // border-top: 30px solid #D0287F;
+    border-bottom: 20px solid $secondary;
+}
+.port-img-contain-right, .port-img-contain-left{
+    max-width: 465px;
 }

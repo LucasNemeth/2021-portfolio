@@ -19,7 +19,7 @@
     right: 0;
     bottom: 45px;
     transform: skewY(-2deg);
-    background: white;
+    background: $text-light;
     border-top: 20px solid $secondary;
     // border-bottom: 30px solid #D0287F;;
 }
@@ -32,7 +32,7 @@
     right: 0;
     bottom: -55px;
     transform: skewY(4deg);
-    background: white;
+    background: $text-light;
     // border-top: 30px solid #D0287F;
     border-bottom: 20px solid $secondary;
 }
