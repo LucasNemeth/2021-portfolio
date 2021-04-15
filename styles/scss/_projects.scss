@@ -1,9 +1,17 @@
 .right-container, .left-container{
+    margin: 20px 0 20px 0;
     .wrapper{
-        display: flex;
+        display: grid;
         position: relative;
         align-items: center;
-        
+        grid-template-columns: 55% 45%;
+    }
+}
+
+.left-container{
+    position: relative; 
+    .wrapper{
+        padding: 60px 0 60px 0;
     }
 }
 
@@ -11,6 +19,7 @@
     position: relative; 
     .wrapper{
         color: $primary;
+        padding: 40px 0 40px 0;
     }
 }
 .right-container::before{
@@ -36,9 +45,9 @@
     bottom: -55px;
     transform: skewY(4deg);
     background:$text-light;
-    // border-top: 30px solid #D0287F;
+    border-top: 30px solid #D0287F;
     border-bottom: 20px solid $secondary;
 }
 .port-img-contain-right, .port-img-contain-left{
-    max-width: 465px;
+    max-width: 425px;
 }
