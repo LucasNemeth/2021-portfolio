@@ -12,6 +12,11 @@
     position: relative; 
     .wrapper{
         padding: 60px 0 60px 0;
+        text-align: right;
+        grid-template-columns: 45% 55%;
+        .built-with{
+            padding-right: 40px;
+        }
     }
 }
 
@@ -20,6 +25,7 @@
     .wrapper{
         color: $primary;
         padding: 40px 0 40px 0;
+        text-align: left;
     }
 }
 .right-container::before{
@@ -43,11 +49,23 @@
     top: 100px;
     right: 0;
     bottom: -55px;
-    transform: skewY(4deg);
+    transform: skewY(2deg);
     background:$text-light;
     border-top: 30px solid #D0287F;
     border-bottom: 20px solid $secondary;
 }
 .port-img-contain-right, .port-img-contain-left{
     max-width: 425px;
+}
+.port-img-contain-left{
+    margin-left: 90px;
+    img{
+        box-shadow: 20px 20px $secondary;
+    }
+}
+
+.port-img-contain-right{
+    img{
+        box-shadow: 20px 20px $primary;
+    }
 }
