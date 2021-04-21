@@ -6,7 +6,16 @@
         font-size: 2rem;
         margin: 20px;
         text-transform: uppercase;
+        a{
+            transition: all 0.35s ease-in;
+        }
+        a:hover{
+            // background:linear-gradient(45deg, rgba(116,5,62,1) 0%, rgba(208,40,127,1) 100%);
+            color: $secondary;
+            
+        }
     }
+
 }
 
 footer{
@@ -16,3 +25,4 @@ footer{
     display: inline-block;
     width: 100%;
 }
+

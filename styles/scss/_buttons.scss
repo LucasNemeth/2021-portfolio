@@ -6,8 +6,13 @@ button{
     font-size: 1.3rem;
     color: $primary;
     text-transform: uppercase;
+    transition:all ease 0.35s ;
 }
 
-button:hover{
+button:hover,
+button:focus{
     cursor: pointer;
+    // background:linear-gradient(45deg, rgba(116,5,62,1) 0%, rgba(208,40,127,1) 100%);
+    background: $tertiary;
+    color: $text-light;
 }

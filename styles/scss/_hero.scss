@@ -12,6 +12,7 @@ hr{
     align-items: center;
     text-align: center;
     height:90vh;
+    margin-bottom: 70px;
     h1{
         font-size: 7rem;
         margin: 0;
@@ -34,4 +35,9 @@ hr{
     vertical-align: top;
     width: 0;
     transform: rotate(180deg);
+    transition: all ease-in 0.25s;
+  }
+  .caret.caret-reversed:hover{
+      border-bottom: 35px solid $tertiary;
+    //   box-shadow: 3px 0px $secondary;
   }
