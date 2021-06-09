@@ -65,7 +65,8 @@
 }
 
 .port-img-contain-right{
+    margin-right: 10px;
     img{
-        box-shadow: 20px 20px $primary;
+        box-shadow: -20px 20px $primary;
     }
 }

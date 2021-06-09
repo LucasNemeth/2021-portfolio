@@ -1,0 +1,33 @@
+@media(max-width:990px){
+    .port-img-contain-right{
+        max-width: 375px;
+    }
+}
+@media(max-width:850px){
+    .right-container , .about{
+        .wrapper{
+            display: flex!important;
+            flex-direction: column;
+            align-items: center;
+            .img-container, .about-txt-container{
+                max-width: 385px;
+                width: 100%;
+            }
+
+        }
+    }
+    .left-container{
+        .wrapper{
+            display: flex!important;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+    
+} 
+
+@media(max-width:620px){
+    .skill-list{
+        grid-template-columns: 25% 25% 25% auto;
+    }
+}
